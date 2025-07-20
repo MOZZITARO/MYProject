@@ -54,7 +54,8 @@
                     <p>추천 운동: <strong>
 
                     {% for cal in exercise_cal %}
-                        <p>{{ overcal}} 칼로리를 소모하기 위해선 {{ overcal / cal['exercise_cal'] }} 시간동안 {{ cal['exercise'] }}을(를) 해야합니다.</p>
+                        <p>{{ overcal}} 칼로리를 소모하기 위해선 {{ overcal / cal['exercise_cal'] }} 
+                            시간동안 {{ cal['exercise'] }}을(를) 해야합니다.</p>
                     {% endfor %}
                     </strong></p>
                 {% else %}
