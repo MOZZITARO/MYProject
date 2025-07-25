@@ -52,6 +52,14 @@ pymysql 라이브러리를 활용해 Flask와 연동하여 사용자 입력 데�
 이를 해결하기 위해 데이터베이스 관련 모든 기능을 db.py로 분리하여 관심사를 명확히 구분함.<br>
   <br>
   <div align="center">
-    <img src="https://github.com/user-attachments/assets/791f1742-4c7c-43ba-b112-a51965a5879d" width="70%">
+    <img src="https://github.com/user-attachments/assets/50bae70e-ce67-4031-b283-22a0bb5a5278" width="70%">
+  </div>
+
+   <div align="center">
+    <img src="https://github.com/user-attachments/assets/1e9ccecd-19f8-44b9-aa1b-87f6a3225028" width="70%">
+  </div>
+
+   <div align="center">
+    <img src="https://github.com/user-attachments/assets/c3e621c3-e4ff-4683-8470-fe0d6a216c1b" width="70%">
   </div>
 
