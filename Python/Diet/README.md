@@ -10,11 +10,11 @@
 
 ## <span id="3">📅 개발 스택</span>
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/17df56a3-78ed-46d5-8bb4-f4f458027096" width="70%">
+    <img src="https://github.com/user-attachments/assets/556eb84b-b62e-445a-aa0d-738af09b02fb" width="40%">
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/d07436db-1db8-4334-965f-417715c6ed45" width="70%">
+    <img src="https://github.com/user-attachments/assets/d07436db-1db8-4334-965f-417715c6ed45" width="40%">
 </div>
 
 ### 
