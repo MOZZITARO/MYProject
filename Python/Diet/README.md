@@ -11,7 +11,7 @@
 ## <span id="3">📅 개발 스택</span>
 <div align="center">
     <img src="https://github.com/user-attachments/assets/556eb84b-b62e-445a-aa0d-738af09b02fb" width="40%">
-</div>
+
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/d07436db-1db8-4334-965f-417715c6ed45" width="40%">
@@ -26,8 +26,11 @@
   사용자가 입력한 음식 데이터를 바탕으로 성별과 활동 수준에 따른 일일 권장 칼로리와 비교 분석을 수행<br>
   
   <div align="center">
-    <img src="https://github.com/user-attachments/assets/f3836f7c-e288-4183-9ca3-43294a9626d1" width="45%">
-   
+    <img src="https://github.com/user-attachments/assets/f1b2063d-c246-4a4f-9b96-2af96cf5dcad" width="45%">
+  </div>
+
+   <div align="center">
+    <img src="https://github.com/user-attachments/assets/b6c31c67-dfaf-400f-820f-afd8d2bb2470" width="45%">
   </div>
 </div>
 
