@@ -45,4 +45,20 @@ pymysql 라이브러리를 활용해 Flask와 연동하여 사용자 입력 데�
 
 <br><br>
 
+# 🛠️ 개발 관련 주안점
+
+개발 초기에는 모든 로직을 app.py한 파일에 작성했지만, 코드가 길어질수록 특정 함수를 찾기 어렵고 수정 시 실수가 발생하기 쉽다는 문제를 경험. 
+이를 해결하기 위해 데이터베이스 관련 모든 기능을 db.py로 분리하여 관심사를 명확히 구분함.<br>
+  <br>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/791f1742-4c7c-43ba-b112-a51965a5879d" width="45%">
+  </div>
+
+   <div align="center">
+    <img src="" width="45%">
+  </div>
+
+   <div align="center">
+    <img src="" width="45%">
+  </div>
 
