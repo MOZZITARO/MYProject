@@ -10,11 +10,11 @@
 
 ## <span id="3">📅 개발 스택</span>
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/f6ffa480-1a90-47d9-86e9-3d52ecbe1a23](https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/flask-logo-icon.png" width="70%">
+    <img src="https://github.com/user-attachments/assets/17df56a3-78ed-46d5-8bb4-f4f458027096" width="70%">
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/f6ffa480-1a90-47d9-86e9-3d52ecbe1a23](https://blog.kakaocdn.net/dna/b0X3HH/btssIqR7Go7/AAAAAAAAAAAAAAAAAAAAAEKufNCuLyvIhhEEYQ6XFsI0BTm551_GLLgrzHrqkNDc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=oGTIgYWqA7fLUTfvl5iifnOuFso%3D" width="70%">
+    <img src="https://github.com/user-attachments/assets/d07436db-1db8-4334-965f-417715c6ed45" width="70%">
 </div>
 
 ### 
