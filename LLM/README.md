@@ -47,7 +47,7 @@
 
  기존 방식에서는 매 요청마다 모델을 새로 로드하는 비효율적인 방식을 사용했으나, 전역 초기화 방식으로 변경하여 애플리케이션 시작 시 한 번만 모델을 메모리에 로드하도록 개선. 
  이를 통해 반복적인 모델 로딩을 제거하여 응답 시간을 대폭 단축. 
- 추가로 Ollama 기반의 로컬 LLM을 선택하여 호출당 발생하는 운영 비용을 절약하고 네트워크 지연 시간을 줄여 응답 속도까지 향상.<br>
+ 추가로 Ollama 기반의 로컬 LLM을 선택하여 호출당 발생하는 운영 비용을 절약하고 네트워크 지연 시간을 줄여 응답 속도까지 향상.
     
   <br> 초기에는 첫 번째 요청 시 전체 데이터셋을 일괄 로드하는 방식으로 인해 초기 응답 속도가 15-20초까지 지연되는 문제가 발생. 
   이를 해결하기 위해 필요한 첫 번째 데이터만 선택적으로 로드하도록 변경. "<br>
@@ -56,15 +56,15 @@
   TMDB API가 실시간 영화 데이터와 포스터를 제공하면, Ollama LLM이 친근한 설명으로 변환하는 방식으로 결과적으로 데이터의 정확성(TMDB) + 설명의 지능성(Ollama) + 비용 효율성(로컬 처리)을 한번에 구현.
   <br>
   <div align="center">
-    <img src="https://github.com/user-attachments/assets/50bae70e-ce67-4031-b283-22a0bb5a5278" width="70%">
+    <img src="https://github.com/user-attachments/assets/9da24307-831f-4f81-bb73-c4ac4aff0a13" width="70%">
   </div>
 
    <div align="center">
-    <img src="https://github.com/user-attachments/assets/c3e621c3-e4ff-4683-8470-fe0d6a216c1b" width="70%">
+    <img src="https://github.com/user-attachments/assets/a12e10a3-3635-4802-b776-e11c87cea858" width="70%">
   </div>
 
    <div align="center">
-    <img src="https://github.com/user-attachments/assets/1e9ccecd-19f8-44b9-aa1b-87f6a3225028" width="70%">
+    <img src="https://github.com/user-attachments/assets/949a0566-5778-49fb-ab19-dd81b3bb8b39" width="70%">
   </div>
 
   # 🛠️ 개발 관련 고민거리
