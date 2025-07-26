@@ -67,20 +67,23 @@
     <img src="https://github.com/user-attachments/assets/949a0566-5778-49fb-ab19-dd81b3bb8b39" width="70%">
   </div>
 
-  # 🛠️ 개발 관련 고민거리
+  # 🛠️ AI 응답 속도 최적화 트러블슈팅
 
 
-개발 초기에는 결과 페이지에서 시간 계산이 '2.75시간'처럼 소수점으로 표시되어 사용자가 실제 운동 계획을 세우기 어렵고, 성별이나 입력한 음식 정보가 결과에서 확인되지 않아 계산 근거를 알 수 없다는 문제를 경험. 
-이를 해결하기 위해 Jinja2 템플릿의 수학 연산 기능을 활용해 '2시간 45분'으로 정확히 변환하고, 성별과 음식 종류 정보를 결과에 명시하여 투명성을 확보.<br>
-  <br> 특히 개발하면서 '사용자가 결과를 보고 실제로 행동할 수 있을까?'를 고민. 그래서 단순히 '운동하세요'가 아니라 '달리기 2시간 30분', '수영 1시간 45분'처럼 구체적인 시간과 운동을 제시. 
-  또한 결과 페이지에서 불필요한 성별 선택 UI를 제거하고 계산된 결과만 명확히 표시하여 사용자 혼란을 방지했고 HTML 구조도 표준에 맞게 개선하여 모든 브라우저에서 일관되게 작동하도록 개선.<br>
+모델 전역 최적화와 선택적 데이터 로드 방식을 통해 지연 속도를 개선하려고 노력했지만, 여전히 프롬프트 불러오는 속도는 사용자들이 불편을 느낄 정도로 길었음. 
+이에 추가적인 속도 향상을 위해 첫 번째로 캐싱을 도입하여 반복되는 API 호출 횟수를 한번으로 제한하고 그만큼의 시간을 단축. 
+하지만 더 중요한 건 프롬프트를 간소화하는 것이었는데, 이를 통해 기존 180초가 넘던 응답 시간이 절반 이하로 단축.<br>
+  <br> 다만, gemma2이외의 모델을 사용하면 응답 생성 실패 등 품질 저하 문제가 발생하였기 때문에, 추가적인 모델 실험과 조합을 통해 더욱 향상된 성능을 찾을 계획<br>
   <br>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/0f37608b-9434-4dbe-a84c-1aa36112956a" width="70%">
+    <img src="https://github.com/user-attachments/assets/894fde7d-9f31-4802-b4ec-1b7d44c24e40" width="70%">
   </div>
   
   <div align="center">
-    <img src="https://github.com/user-attachments/assets/bb20e791-f45f-41f6-b44c-09bc191200c1" width="70%">
+    <img src="https://github.com/user-attachments/assets/942d3080-5a86-4328-bf92-f691665dba42" width="70%">
   </div>
 
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/86c9ee89-2da4-484b-bb32-1e8674b854a6" width="70%">
+  </div>
