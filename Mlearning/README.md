@@ -1,5 +1,5 @@
-<img width="470" height="398" alt="image" src="https://github.com/user-attachments/assets/3bc872e4-6ec2-4cef-aebf-17224a55931e" /># 학습 습관 기반 성적 예측 시스템
-### 프로젝트 개요
+### 학습 습관 기반 성적 예측 시스템
+# 프로젝트 개요
 
 - 학생의 다양한 학습 습관과 생활 패턴을 분석하여 시험 성적을 예측하는 머신러닝 기반 예측 시스템.
 
