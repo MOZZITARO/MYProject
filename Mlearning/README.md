@@ -10,7 +10,7 @@
 
 ## <span id="3">📅 개발 스택</span>
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/34883c5c-f04d-4be0-99c4-200c3572ce15" width="40%">
+    <img src="https://github.com/user-attachments/assets/34883c5c-f04d-4be0-99c4-200c3572ce15" width="20%">
 </div>
 
 <div align="center">
