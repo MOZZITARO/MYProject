@@ -25,8 +25,9 @@
 <br>
 
 # 🛠️ 주요기능
+### 개인 학습 / 습관 입력
 
-Streamlit UI를 통한 개인 데이터에 따른 학습 성적 예측 가능<br>
+Streamlit UI를 통한 개인 데이터에 기반한 학습 성적 예측 가능<br>
   <br>
   <div align="center">
     <img src="https://github.com/user-attachments/assets/f208d94a-b653-4641-aefb-3a9088b2d1c4" width="45%">
