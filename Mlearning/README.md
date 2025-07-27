@@ -1,4 +1,4 @@
-# 학습 습관 기반 성적 예측 시스템
+<img width="470" height="398" alt="image" src="https://github.com/user-attachments/assets/3bc872e4-6ec2-4cef-aebf-17224a55931e" /># 학습 습관 기반 성적 예측 시스템
 ### 프로젝트 개요
 
 - 학생의 다양한 학습 습관과 생활 패턴을 분석하여 시험 성적을 예측하는 머신러닝 기반 예측 시스템.
@@ -38,23 +38,19 @@ Streamlit UI를 통한 개인 데이터에 기반한 학습 성적 예측 가능
 # 🛠️ 기술적 주안점
 
 
-"개발 초기에는 모든 로직을 app.py한 파일에 작성했지만, 코드가 길어질수록 특정 함수를 찾기 어렵고 수정 시 실수가 발생하기 쉽다는 문제를 경험. 
-이를 해결하기 위해 데이터베이스 관련 모든 기능을 db.py로 분리하여 관심사를 명확히 구분함.<br>
-  <br> 특히 개발하면서 '사용자가 실제로 쓸 만한가?'를 고민. 그래서 음식 입력을 자연스럽게 쉼표로 구분하게 하고, 추천도 '운동하세요'가 아니라 '달리기 몇 시간'처럼 구체적으로 제시. 
-  또한 매번 입력하는 것만으로는 의미가 없다고 생각해서 기록 저장과 이력 조회 기능을 추가하여 지속적인 건강 관리가 가능하도록 함."<br>
+"개발 초기에는 모든 모델 학습을 순차적으로 처리했지만, 학습 데이터가 많아질수록 학습 시간이 너무 오래 걸리고 사용자가 결과를 기다리기 힘들다는 문제를 경험했습니다. 
+이를 해결하기 위해 RandomForest와 GridSearchCV 모두에 병렬 처리(n_jobs=-1)를 적용하여 CPU 멀티코어를 최대한 활용<br>
+  <br> 또한 단순히 train-test split으로만 모델을 검증하는것보다 실제 서비스에서는 특정 데이터에만 잘 맞는 과적합 문제와 예측 결과의 신뢰도가 떨어진다는 문제를 경험. 
+  이를 해결하기 위해 교차검증(Cross-Validation)과 홀드아웃 검증을 동시에 적용하여 모델의 일반화 성능을 다각도로 검증"<br>
   <br>
   <div align="center">
-    <img src="https://github.com/user-attachments/assets/50bae70e-ce67-4031-b283-22a0bb5a5278" width="70%">
+    <img src="https://github.com/user-attachments/assets/94190fbb-b4f1-4ec8-aa35-5bcf311f3b16" width="70%">
   </div>
 
    <div align="center">
-    <img src="https://github.com/user-attachments/assets/c3e621c3-e4ff-4683-8470-fe0d6a216c1b" width="70%">
+    <img src="https://github.com/user-attachments/assets/7a6857e9-e01c-4e17-be26-0071c95b8e04" width="70%">
   </div>
-
-   <div align="center">
-    <img src="https://github.com/user-attachments/assets/1e9ccecd-19f8-44b9-aa1b-87f6a3225028" width="70%">
-  </div>
-
+  
   # 🛠️ 개발 관련 고민거리
 
 
