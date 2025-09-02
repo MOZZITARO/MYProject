@@ -31,7 +31,7 @@ pd.options.display.float_format = "{:.2f}".format
 
 # 회귀 (예측 모델)
 # 1. 데이터 불러오기
-file_path = "../dataset/Grocery Price Index Tool.csv"
+file_path = "./dataset/Grocery Price Index Tool.csv"
 data = pd.read_csv(file_path)
 
 print(f"데이터 모양: {data.shape}")

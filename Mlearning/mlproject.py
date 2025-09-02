@@ -30,7 +30,7 @@ plt.rcParams["axes.unicode_minus"] = False
 pd.options.display.float_format = "{:.2f}".format
 
 # 데이터 로드
-data = pd.read_csv("../dataset/student_habits_performance.csv")
+data = pd.read_csv("./dataset/student_habits_performance.csv")
 # data.head()
 # data.info()
 

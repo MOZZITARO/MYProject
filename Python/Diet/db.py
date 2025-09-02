@@ -8,9 +8,9 @@ class Database:
         try:
             self.connection = pymysql.connect(
                 host="localhost",
-                database="test",  # test 데이터베이스 사용
+                database="sys",  # test 데이터베이스 사용
                 user="root",
-                password="kirito1013",  # mariadb 설치 당시의 패스워드, 실제 환경에서는 보안을 위해 환경변수 등을 사용
+                password="kirito1013@",  # mariadb 설치 당시의 패스워드, 실제 환경에서는 보안을 위해 환경변수 등을 사용
                 charset="utf8mb4",
                 cursorclass=pymysql.cursors.DictCursor,
             )

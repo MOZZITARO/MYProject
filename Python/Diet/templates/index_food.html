@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <!-- 메인 페이지 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>다이어트</title>
@@ -184,6 +185,7 @@
                 <textarea id="food"name="foods" placeholder="먹은 음식을 입력하세요 (예: 김밥, 떡볶이, 돈까스 등) 구분은 ,로 표시"></textarea>
             </div>
             <div>
+                
                 입력가능한 음식들:
                 {% for food in foods %}
                     {{ food['FOOD'] }}
